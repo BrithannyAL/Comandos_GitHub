@@ -19,3 +19,5 @@ CONTROL DE VERSIONES
                 Tomamos el url de nuestro repositorio en GitHub y usamos el comando para suirlo
             git push -u origin main
                 Hacemos una sincronización del archivo local con el remoto
+        
+        Prueba para hacer un cambio después de subir el archivo
