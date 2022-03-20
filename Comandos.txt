@@ -1,0 +1,14 @@
+CONTROL DE VERSIONES
+    1. Primero tenemos que crear un repositorio en nuestra cuenta GitHub
+        Comandos para subir a nuestro repositorio LOCAL:
+            git init
+                Se inicializa el repositorio
+            git status or git status -s
+                Nos dice los archivos, modificados, cargados y no cargados
+            git add [nombre_del_archivo] or git add .
+                Para subir archivos; podemos poner el nombre del archivo en específico o solo usar el punto para subir todos los archivos que se encuentren en la carpeta.
+            git commit -m "Mensaje_con_la_actulización"
+                Se guardan las modificaciones del los archivos; los cambios que se agregan al repositorio
+            git config --global user.mail [correo_GitHub]
+            git config --global  user.name [nombre_usuario_GitHub]
+                Estos comandos nos ayudan a configurar con nuestra cuenta de GitHub
