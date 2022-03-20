@@ -12,6 +12,7 @@ CONTROL DE VERSIONES
             git config --global user.mail [correo_GitHub]
             git config --global  user.name [nombre_usuario_GitHub]
                 Estos comandos nos ayudan a configurar con nuestra cuenta de GitHub
+
         Comandos para subir a nuestro repositorio remoto:
             git branch -M main
                 Agregar el archivo a la rama principal
@@ -19,5 +20,9 @@ CONTROL DE VERSIONES
                 Tomamos el url de nuestro repositorio en GitHub y usamos el comando para suirlo
             git push -u origin main
                 Hacemos una sincronización del archivo local con el remoto
-        
+
+    2. Hacer cambios a los archivos después de subidos al repositorio remoto
+        Hacemos todas las modificaciones que queramos a nuestros archivos, y luego usamos:
+            1. git add
+            2. git commit -m "Mensaje_con_la_actulización"
         Prueba para hacer un cambio después de subir el archivo
