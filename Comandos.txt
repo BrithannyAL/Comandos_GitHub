@@ -27,3 +27,12 @@ CONTROL DE VERSIONES
             2. git commit -m "Mensaje_con_la_actulización"
             3. git branch -M main
             4. git push -u origin main
+
+    Notas:
+        - git log --oneline: Ver la rama en la que estoy
+        - git checkout [NOMBRE_DE_LA_RAMA]: moverse a una rama en específico
+        - git branch: ver la rama en la estoy ubicado
+        - git branch [NOMBRE_DE_LA_RAMA]: crear una nueva rama
+        - git merge [NOMBRE_DE_LA_RAMA]: Para agregar los cambios al original
+        - git branch -d [NOMBRE_DE_LA_RAMA]: con esto eliminamos la rama
+            
